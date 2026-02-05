@@ -6,7 +6,6 @@ import seaborn as sns
 import warnings
 warnings.filterwarnings('ignore')
 
-ipip install joblib
 
 model = joblib.load('financial_model.pkl')
 
